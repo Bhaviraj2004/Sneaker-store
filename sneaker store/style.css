@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.store{
+    margin: auto;
+  width: 60%;
+  min-height: 100%;
+}
+
+h1{
+    color: red !important;
+    font-size: 60px;
+    text-align: center;
+    padding: 30px;
+    font-style: italic;
+}
+
+.shoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+     height: 100%;
+}
+
+.cards{
+    border-radius: 30px;
+    /* border: 1px solid black; */
+    box-shadow: 4px 4px 8px 4px rgba(162, 168, 168, 0.5);
+    width: 27%;
+    height: 340px;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+.image{
+    border-radius: 30px;
+    /* border: 1px solid black; */
+    /* background-color: gray; */
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.image > img{
+    border-radius: 30px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.image > img:hover{
+    transform: scale(1.2);
+    transition: transform 0.4s ease-in-out;
+}
+
+.destails{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.discription{
+    font-size: 14px;
+}
+
+.buyimg{
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+
